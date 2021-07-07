@@ -1,4 +1,12 @@
 terraform {
+  backend "remote" {
+    organization = "zackDevOps" 
+      workspaces {
+        name = "Zacks workspace"
+      }
+    }
+    
+  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
