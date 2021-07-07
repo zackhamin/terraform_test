@@ -1,10 +1,10 @@
 terraform {
-  backend "remote" {
-    organization = "zackDevOps" 
-      workspaces {
-        name = "Zacks workspace"
-      }
-    }
+  # backend "remote" {
+    # organization = "zackDevOps" 
+    #   workspaces {
+    #     name = "Zacks workspace"
+    #   }
+    # }
     
   required_providers {
     aws = {
